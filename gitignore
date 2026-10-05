@@ -1,0 +1,14 @@
+# Video người dùng bỏ vào dự án: nặng, không vào git. nguon.md thì giữ.
+*/**/*.mp4
+*/**/*.mov
+*/**/*.m4v
+*/**/*.webm
+*/**/*.mkv
+*/**/*.avi
+*/**/*.mpeg
+*/**/*.mpg
+*/**/*.wmv
+*/**/*.flv
+*/**/*.3gp
+
+.env   
