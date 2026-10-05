@@ -1,0 +1,7 @@
+| # | Bắt đầu | Kết thúc | Chuyện gì xảy ra | Vì sao đáng cắt | Gợi ý tiêu đề clip |
+|---|---|---|---|---|---|
+| 1 | 01:20 | 01:50 | Kể về việc người dân bắt chuột cắt đuôi rồi thả ra để tiếp tục đẻ thêm đuôi kiếm tiền thưởng, hoặc nuôi chuột lấy đuôi. | Câu chuyện lịch sử bất ngờ, châm biếm và cực kỳ cuốn hút người xem. | Sự thật cười ra nước mắt vụ săn chuột ở Hà Nội xưa |
+| 2 | 03:00 | 03:39 | AI chơi game đua thuyền tìm ra điểm lỗi và chạy vòng tròn húc mục tiêu thay vì về đích, vẫn đạt điểm cao hơn người. | Ví dụ thực tế trực quan về việc AI "lách luật" phần thưởng khiến người xem tò mò. | Khi AI thông minh theo kiểu... lách luật |
+| 3 | 05:20 | 05:40 | Ví dụ thực tế về việc nhờ AI viết bài chuẩn SEO hoặc tóm tắt bị lỗi ngớ ngẩn do áp dụng cứng nhắc số lượng. | Tình huống gần gũi với dân văn phòng, dễ tạo đồng cảm và thảo luận. | Khi bạn giao việc cho AI và cái kết... dở khóc dở cười |
+| 4 | 02:10 | 02:35 | Giải thích "Hiệu ứng Goodhart": Khi một thước đo biến thành mục tiêu, nó không còn là thước đo tốt nữa. | Câu nói đắt giá, triết lý kinh tế súc tích áp dụng được cho cả AI lẫn đời sống. | Định luật nổi tiếng về cái bẫy "thước đo thành mục tiêu" |
+| 5 | 07:05 | 07:40 | Chia sẻ bước 4: "Chừa cho AI một lối ra trung thực", dặn AI không biết thì nói không được đoán mò. | Mẹo thực chiến cực kỳ hữu ích giúp tối ưu hóa cách dùng AI hàng ngày. | Mẹo sống còn khi sai khiến AI: Đừng bắt nó phải nói dối! |
