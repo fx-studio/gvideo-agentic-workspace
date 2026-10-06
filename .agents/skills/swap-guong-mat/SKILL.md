@@ -22,7 +22,7 @@ FaceFusion tự tải model lần đầu; cần mạng và dung lượng, CPU ch
 
 - Dùng một hoặc nhiều ảnh rõ của **cùng một người** cho `--source`. Mỗi ảnh nguồn chỉ có một mặt.
 - Dùng ảnh/video cần thay mặt cho `--target`; không chép hoặc di chuyển media.
-- Chọn đường dẫn mới trong `outputs/<dự án>/` cho `--output`; không ghi đè kết quả cũ.
+- Chọn đường dẫn mới trong `outputs/<dự án>/` cho `--output`; dùng cùng đuôi file với target (yêu cầu FaceFusion 3.9.0), không ghi đè kết quả cũ.
 - Chọn người cần thay trong target bằng `--face-position` (0 là người bên trái theo `--face-order left-right`).
   Với video, chọn `--reference-frame` có mặt người đó rõ và `--reference-distance 0.3` để bám identity target.
   Nếu có nhiều người và chưa rõ cần thay ai, hỏi trước khi chạy render.
