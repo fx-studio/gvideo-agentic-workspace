@@ -91,3 +91,16 @@ Chép thư mục `.agents/skills/phan-tich-video/` sang `~/.gemini/config/skills
 Nguồn: [Google Blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/) ·
 [Gemini API: Video understanding](https://ai.google.dev/gemini-api/docs/video-understanding) ·
 [Antigravity: Skills](https://antigravity.google/docs/skills?app=antigravity-ide)
+
+## Swap gương mặt ảnh/video (FaceFusion local)
+
+Skill mới: `.agents/skills/swap-guong-mat/`. Ví dụ trong Antigravity:
+
+```text
+/swap-guong-mat dùng ảnh Linh làm source, thay mặt người bên trái trong video này
+```
+
+Cần cài riêng FaceFusion 3.9.0 và FFmpeg theo hướng dẫn trong [SKILL.md](.agents/skills/swap-guong-mat/SKILL.md).
+Script hỗ trợ chạy thử `--thu`, chọn mặt target, đổi model, tắt enhancer và ghi log từng lượt.
+Mặc định HyperSwap 1A + GFPGAN blend 30; không bảo đảm giữ identity tuyệt đối.
+Phần tích hợp CLI đã kiểm thử; chưa đánh giá chất lượng bằng render model thật.

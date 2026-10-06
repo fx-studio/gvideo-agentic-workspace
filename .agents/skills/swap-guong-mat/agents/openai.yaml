@@ -1,0 +1,4 @@
+interface:
+  display_name: "Swap gương mặt"
+  short_description: "Thay mặt ảnh và video bằng FaceFusion local"
+  default_prompt: "Dùng $swap-guong-mat để thay mặt từ ảnh tham chiếu vào ảnh hoặc video."

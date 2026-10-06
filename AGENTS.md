@@ -59,3 +59,11 @@ gvideo/
 - Chạy `--thu` trước lần chạy thật đầu tiên của một dự án. Mỗi lần chạy thật là tốn token thật.
 - **Không bịa** mốc thời gian, con số, chi tiết mà `bao-cao.md` không có.
 - Chạy ở **gốc workspace** bằng `uv run --script`. Không tạo `.venv`, không `pip install`.
+
+## Swap gương mặt local
+
+Dùng skill `.agents/skills/swap-guong-mat/` khi yêu cầu thay mặt ảnh/video.
+Skill này gọi runtime FaceFusion riêng và không dùng Gemini để render.
+Các quy tắc không tạo venv/không pip install áp dụng cho workspace này; runtime FaceFusion được cài ngoài workspace.
+Chạy `--thu` trước, giữ nguyên đầu vào, ghi đầu ra mới dưới `outputs/<dự án>/`.
+Việc chọn nguồn, chọn mặt và log được hướng dẫn trong SKILL.md của skill.
