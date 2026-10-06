@@ -103,4 +103,4 @@ Skill mới: `.agents/skills/swap-guong-mat/`. Ví dụ trong Antigravity:
 Cần cài riêng FaceFusion 3.9.0 và FFmpeg theo hướng dẫn trong [SKILL.md](.agents/skills/swap-guong-mat/SKILL.md).
 Script hỗ trợ chạy thử `--thu`, chọn mặt target, đổi model, tắt enhancer và ghi log từng lượt.
 Mặc định HyperSwap 1A + GFPGAN blend 30; không bảo đảm giữ identity tuyệt đối.
-Phần tích hợp CLI đã kiểm thử; chưa đánh giá chất lượng bằng render model thật.
+Đã cài runtime FaceFusion 3.9.0 + FFmpeg, tải và xác minh hash các model của preset,\nvà chạy thành công pipeline ảnh với source/target mẫu chính thức trên CPU (2026-10-06).\nChưa đánh giá độ giống mặt Linh/Đạt hoặc render video thực tế. Mỗi máy chạy vẫn cần cài runtime riêng.
