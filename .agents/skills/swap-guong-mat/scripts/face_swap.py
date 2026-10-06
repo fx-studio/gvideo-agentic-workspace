@@ -51,8 +51,8 @@ def main(argv=None):
     video = target.suffix.lower() in {'.mp4', '.mov', '.mkv', '.webm', '.avi', '.m4v'}
     if not video and target.suffix.lower() not in {'.png', '.jpg', '.jpeg', '.webp', '.bmp'}:
         parser.error('Định dạng target không được hỗ trợ')
-    if output.suffix.lower() not in ({'.mp4'} if video else {'.png', '.jpg', '.jpeg', '.webp'}):
-        parser.error('Video xuất .mp4; ảnh xuất .png/.jpg/.jpeg/.webp')
+    if output.suffix.lower() != target.suffix.lower():
+        parser.error('FaceFusion 3.9.0 yêu cầu đầu ra cùng đuôi file với target')
     python = shutil.which(args.python)
     if not python:
         parser.error('Không tìm thấy Python của môi trường FaceFusion')
